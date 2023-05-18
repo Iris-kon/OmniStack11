@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useHistory } from 'react-router-dom'
-import { FiPower,FiTrash2 } from 'react-icons/fi'
+import { FiPower, FiTrash2 } from 'react-icons/fi'
+import { Link, useNavigate } from 'react-router-dom'
 import api from '../../services/api'
 
 import logoImg from '../../assets/logo.svg'
@@ -12,7 +12,7 @@ export default function Profile(){
     const ongId = localStorage.getItem('ongId')
     const ongName = localStorage.getItem('ongName')
 
-    const history = useHistory()
+    const navigate = useNavigate()
     
     useEffect(() =>{
         api.get('profile', {
@@ -41,14 +41,14 @@ export default function Profile(){
     function handleLogout(){
         localStorage.clear()
 
-        history.push('/')
+        navigate.push('/')
     }
     
     return(
         <div className="profile-container">
             <header>
                 <img src={logoImg} alt="Be The Hero" />
-                <span>Bem vinda, APAD</span>
+                <span>Bem vinda, {ongName}</span>
             
                 <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
                 <button onClick={handleLogout} type="button">
