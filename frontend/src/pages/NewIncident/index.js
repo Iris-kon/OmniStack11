@@ -31,7 +31,7 @@ export default function NewIncident(){
                 }
             })
 
-            navigate.push('/profile')
+            navigate('/profile')
         }catch(err){
             alert('Erro ao cadastrar caso, tente novamente.')
         }
