@@ -17,30 +17,30 @@ The project was developed in the Omnistack 11 from Rocketseat.
 
 <b>login:</b>
 
-![login](https://github.com/Thiago-kon/OmniStack11/blob/master/frontend/public/design/home.PNG)
+![login](https://github.com/Iris-kon/OmniStack11/blob/master/frontend/public/design/home.PNG)
 
 <b>Register:</b>
-![register](https://github.com/Thiago-kon/OmniStack11/blob/master/frontend/public/design/register.PNG)
+![register](https://github.com/Iris-kon/OmniStack11/blob/master/frontend/public/design/register.PNG)
 
 <b>Profile:</b>
-![profile](https://github.com/Thiago-kon/OmniStack11/blob/master/frontend/public/design/profile.PNG)
+![profile](https://github.com/Iris-kon/OmniStack11/blob/master/frontend/public/design/profile.PNG)
 
 <b>New Incident:</b>
-![new-incident](https://github.com/Thiago-kon/OmniStack11/blob/master/frontend/public/design/new-incident.PNG)
+![new-incident](https://github.com/Iris-kon/OmniStack11/blob/master/frontend/public/design/new-incident.PNG)
 
 ## Mobile Screens
 
 <b>Landing - Splash:</b>
 
-![mobile-home](https://github.com/Thiago-kon/OmniStack11/blob/master/mobile/assets/design/loading.jpg)
+![mobile-home](https://github.com/Iris-kon/OmniStack11/blob/master/mobile/assets/design/loading.jpg)
 
 <b>Home:</b>
 
-![mobile-home](https://github.com/Thiago-kon/OmniStack11/blob/master/mobile/assets/design/home.jpg)
+![mobile-home](https://github.com/Iris-kon/OmniStack11/blob/master/mobile/assets/design/home.jpg)
 
 <b>Incident:</b>
 
-![mobile-home](https://github.com/Thiago-kon/OmniStack11/blob/master/mobile/assets/design/incident.jpg)
+![mobile-home](https://github.com/Iris-kon/OmniStack11/blob/master/mobile/assets/design/incident.jpg)
 
 
 ## Used Technologies
@@ -59,7 +59,7 @@ The project utilises the following technologies:
 ## Run project
 Copy the project to the desired folder with the following command:
 
-### `git clone https://github.com/Thiago-kon/OmniStack11`
+### `git clone https://github.com/Iris-kon/OmniStack11`
 
 Go to the backend folder.
 
